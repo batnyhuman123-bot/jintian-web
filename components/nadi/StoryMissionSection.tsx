@@ -27,7 +27,7 @@ const features = [
 
 export function StoryMissionSection() {
   return (
-    <section className="border-t border-[#2D1B14]/12 bg-nadi-cream">
+    <section className="border-t border-[#E3DDD6] bg-nadi-cream">
       <div className="mx-auto max-w-[1440px] px-6 py-16 sm:px-10 sm:py-20 lg:px-16 lg:py-[5.5rem] xl:px-[4.5rem]">
         <div className="grid gap-14 lg:grid-cols-[minmax(0,1.12fr)_minmax(0,0.78fr)] lg:gap-x-[clamp(2.5rem,5vw,4.5rem)] xl:gap-x-24">
           {/* Feature column */}
