@@ -41,8 +41,8 @@ const config: Config = {
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         "hero-glow": {
-          "0%, 100%": { opacity: "0.55", transform: "scale(1)" },
-          "50%": { opacity: "0.75", transform: "scale(1.04)" },
+          "0%, 100%": { opacity: "0.42", transform: "scale(1)" },
+          "50%": { opacity: "0.62", transform: "scale(1.025)" },
         },
       },
       animation: {

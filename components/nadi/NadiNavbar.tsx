@@ -10,8 +10,8 @@ const links = [
 
 export function NadiNavbar() {
   return (
-    <header className="relative z-10 grid h-[72px] w-full grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-stretch border-b border-white/[0.2]">
-      <div className="flex items-center border-r border-white/[0.2] pl-6 pr-5 sm:pl-8 sm:pr-6 lg:pl-12 lg:pr-8 xl:pl-16">
+    <header className="relative z-10 grid h-[72px] w-full grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-stretch border-b border-[rgba(255,228,210,0.12)]">
+      <div className="flex items-center border-r border-[rgba(255,228,210,0.12)] pl-6 pr-5 sm:pl-8 sm:pr-6 lg:pl-12 lg:pr-8 xl:pl-16">
         <Link
           href="/"
           className="text-[13px] font-semibold uppercase tracking-[0.18em] text-white transition-opacity duration-300 hover:opacity-75"
@@ -21,7 +21,7 @@ export function NadiNavbar() {
       </div>
 
       <nav
-        className="flex min-w-0 items-center justify-center gap-x-[clamp(0.65rem,1.8vw,1.85rem)] overflow-x-auto border-r border-white/[0.2] px-3 py-2 sm:px-8 lg:px-12 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex min-w-0 items-center justify-center gap-x-[clamp(0.65rem,1.8vw,1.85rem)] overflow-x-auto border-r border-[rgba(255,228,210,0.12)] px-3 py-2 sm:px-8 lg:px-12 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         aria-label="Primary"
       >
         {links.map((item) => (
