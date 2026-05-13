@@ -19,6 +19,7 @@ const config: Config = {
           muted: "#6B635C",
           "muted-light": "#9A928A",
           gold: "#8B6B47",
+          terracotta: "#C4704D",
         },
       },
       fontFamily: {
@@ -32,6 +33,7 @@ const config: Config = {
       maxWidth: {
         "hero-copy": "34rem",
         mission: "17.5rem",
+        vision: "22rem",
       },
       keyframes: {
         "fade-up": {

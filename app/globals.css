@@ -20,6 +20,9 @@
   .animation-delay-400 {
     animation-delay: 0.4s;
   }
+  .animation-delay-500 {
+    animation-delay: 0.5s;
+  }
   .opacity-0-animate {
     opacity: 0;
   }

@@ -127,3 +127,97 @@ export function IconCart({ className }: { className?: string }) {
     </svg>
   );
 }
+
+export function IconLeafGlobal({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden
+    >
+      <path
+        d="M22.5 9.5c-6.2 1.2-11 6.2-12.2 12.5-.9 4.6.4 9.2 3.2 12.2 2.8-3 4.1-7.6 3.2-12.2-1.2-6.3-6-11.3-12.2-12.5z"
+        stroke="currentColor"
+        strokeWidth="1.1"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M10.3 21.8c3.2-4.8 8.8-8 15.2-8.3"
+        stroke="currentColor"
+        strokeWidth="1.05"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function IconGearInnovation({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden
+    >
+      <path
+        d="M16 11.5v-2M16 22.5v-2M11.5 16h-2M22.5 16h-2M12.8 12.8l-1.4-1.4M20.6 20.6l-1.4-1.4M12.8 19.2l-1.4 1.4M20.6 11.4l-1.4 1.4"
+        stroke="currentColor"
+        strokeWidth="1.05"
+        strokeLinecap="round"
+      />
+      <circle cx="16" cy="16" r="3.75" stroke="currentColor" strokeWidth="1.1" />
+      <circle cx="16" cy="16" r="1.15" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function IconSocialInstagram({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+      <rect x="3.5" y="3.5" width="13" height="13" rx="3.5" stroke="currentColor" strokeWidth="1.1" />
+      <circle cx="10" cy="10" r="3" stroke="currentColor" strokeWidth="1.1" />
+      <circle cx="14.25" cy="5.75" r="0.65" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function IconSocialFacebook({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+      <path
+        d="M12.5 3.75h-1.9c-1.66 0-3 1.34-3 3v2.1H5.5v2.8h1.1V17h3.2v-5.35h2.15l.35-2.8H9.8V7.1c0-.55.45-1 1-1h1.7v-2.35z"
+        stroke="currentColor"
+        strokeWidth="1.1"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function IconSocialX({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+      <path d="M5.5 5.5l9 9M14.5 5.5l-9 9" stroke="currentColor" strokeWidth="1.15" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function IconSocialTiktok({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+      <path
+        d="M12.75 4.25v8.1a2.65 2.65 0 11-2.65-2.65V8.4a4.35 4.35 0 004.35 4.35V9.9a2.6 2.6 0 01-1.7-.6V4.25h.5z"
+        stroke="currentColor"
+        strokeWidth="1.1"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
