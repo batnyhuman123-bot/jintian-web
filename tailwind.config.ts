@@ -24,7 +24,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
-        serif: ["var(--font-cormorant)", "Georgia", "serif"],
+        serif: ["var(--font-cormorant)", "ui-serif", "Georgia", "serif"],
       },
       letterSpacing: {
         luxury: "0.22em",
@@ -35,7 +35,6 @@ const config: Config = {
         "hero-copy": "34rem",
         mission: "17.5rem",
         vision: "22rem",
-        "brand-copy": "32rem",
       },
       keyframes: {
         "fade-up": {

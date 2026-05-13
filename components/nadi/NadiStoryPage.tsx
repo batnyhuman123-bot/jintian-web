@@ -1,4 +1,4 @@
-import { BrandJintianSection } from "./BrandJintianSection";
+import { BrandMeaningSection } from "./BrandMeaningSection";
 import { NadiFooter } from "./NadiFooter";
 import { NadiHero } from "./NadiHero";
 import { StoryMissionSection } from "./StoryMissionSection";
@@ -9,7 +9,7 @@ export function NadiStoryPage() {
   return (
     <main>
       <NadiHero />
-      <BrandJintianSection />
+      <BrandMeaningSection />
       <StoryMissionSection />
       <StoryVisionSection />
       <TeamSection />
