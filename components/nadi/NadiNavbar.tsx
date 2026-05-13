@@ -21,14 +21,14 @@ export function NadiNavbar() {
       </div>
 
       <nav
-        className="flex items-center justify-center gap-x-[clamp(1rem,2.4vw,1.85rem)] border-r border-white/[0.2] px-5 sm:px-8 lg:px-12"
+        className="flex min-w-0 items-center justify-center gap-x-[clamp(0.65rem,1.8vw,1.85rem)] overflow-x-auto border-r border-white/[0.2] px-3 py-2 sm:px-8 lg:px-12 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         aria-label="Primary"
       >
         {links.map((item) => (
           <Link
             key={item.label}
             href={item.href}
-            className="whitespace-nowrap text-[11px] font-medium uppercase tracking-nav text-white/95 transition-opacity duration-300 hover:opacity-70"
+            className="whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.11em] text-white/95 transition-opacity duration-300 hover:opacity-70 sm:text-[11px] sm:tracking-nav"
           >
             {item.label}
           </Link>
