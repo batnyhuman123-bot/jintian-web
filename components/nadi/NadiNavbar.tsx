@@ -1,0 +1,56 @@
+import Link from "next/link";
+import { IconCart, IconUser } from "./NadiIcons";
+
+const links = [
+  { href: "#", label: "SHOP" },
+  { href: "#", label: "TAKE QUIZ" },
+  { href: "#", label: "OUR STORY" },
+  { href: "#", label: "BLOG" },
+] as const;
+
+export function NadiNavbar() {
+  return (
+    <header className="relative z-10 grid h-[72px] w-full grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-stretch border-b border-white/[0.2]">
+      <div className="flex items-center border-r border-white/[0.2] pl-6 pr-5 sm:pl-8 sm:pr-6 lg:pl-12 lg:pr-8 xl:pl-16">
+        <Link
+          href="/"
+          className="text-[13px] font-semibold uppercase tracking-[0.18em] text-white transition-opacity duration-300 hover:opacity-75"
+        >
+          NADI
+        </Link>
+      </div>
+
+      <nav
+        className="flex items-center justify-center gap-x-[clamp(1rem,2.4vw,1.85rem)] border-r border-white/[0.2] px-5 sm:px-8 lg:px-12"
+        aria-label="Primary"
+      >
+        {links.map((item) => (
+          <Link
+            key={item.label}
+            href={item.href}
+            className="whitespace-nowrap text-[11px] font-medium uppercase tracking-nav text-white/95 transition-opacity duration-300 hover:opacity-70"
+          >
+            {item.label}
+          </Link>
+        ))}
+      </nav>
+
+      <div className="flex items-center justify-end gap-x-5 pr-6 pl-4 sm:pr-8 sm:pl-5 lg:pr-12 lg:pl-6 xl:pr-16">
+        <Link
+          href="#"
+          className="text-white transition-opacity duration-300 hover:opacity-70"
+          aria-label="Account"
+        >
+          <IconUser className="h-[22px] w-[22px]" />
+        </Link>
+        <Link
+          href="#"
+          className="text-white transition-opacity duration-300 hover:opacity-70"
+          aria-label="Cart"
+        >
+          <IconCart className="h-[22px] w-[22px]" />
+        </Link>
+      </div>
+    </header>
+  );
+}
