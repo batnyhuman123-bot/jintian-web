@@ -40,14 +40,9 @@ const config: Config = {
           "0%": { opacity: "0", transform: "translateY(14px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
-        "hero-glow": {
-          "0%, 100%": { opacity: "0.42", transform: "scale(1)" },
-          "50%": { opacity: "0.62", transform: "scale(1.025)" },
-        },
       },
       animation: {
         "fade-up": "fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards",
-        "hero-glow": "hero-glow 14s ease-in-out infinite",
       },
     },
   },
