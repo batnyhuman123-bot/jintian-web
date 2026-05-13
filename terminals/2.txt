@@ -1,6 +1,0 @@
----
-pid: 4116
-cwd: |
-  C:\Users\Fong Boon Siew\.cursor\projects\empty-window\nadi-story
----
-PS C:\Users\Fong Boon Siew\.cursor\projects\empty-window\nadi-story>
